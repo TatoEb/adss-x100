@@ -7,7 +7,7 @@ cd ~ && sudo rm -rf adss-x100 && sudo apt update -y && sudo apt install git -y &
 To detach from screen press the combination: Ctrl+A D 
 
 
-To reattach to a detached session enter: sudo screen -r X100
+To reattach to your detached session enter: sudo screen -r X100
 
 
 To stop X100 press Ctrl+C. 

@@ -1,7 +1,7 @@
 Install and launch X100 easily with just 2 commands in your linux terminal:
 
 
-1) curl https://raw.githubusercontent.com/TatoEb/adss-x100/main/InstallX100.sh -Lo run.sh && sudo chmod +x *.sh && cd ~ && ./run.sh
+1) cd ~ && curl https://raw.githubusercontent.com/TatoEb/adss-x100/main/InstallX100.sh -Lo run.sh && sudo chmod +x *.sh && ./run.sh
 
 
 2) cd ~ && ./X100.sh

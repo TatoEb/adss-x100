@@ -16,4 +16,6 @@ To stop X100 press Ctrl+C.
 To start X100 again enter:  cd ~ && ./X100.sh
 
 
-To change config file of X100 use this command:  cd ~ && sudo mcedit x100-for-docker/put-your-ovpn-files-here/x100-config.txt
+To change a config file of X100 use this command:  cd ~ && sudo mcedit x100-for-docker/put-your-ovpn-files-here/x100-config.txt
+
+(after every changes in x100-config.txt you must restart X100 in order to start with new parameters)

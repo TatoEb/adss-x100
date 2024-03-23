@@ -10,13 +10,13 @@ Install and launch X100 easily with just 2 commands in your linux terminal:
 To detach from your screen session press the combination:  Ctrl+A D 
 
 
-To reattach to the detached session enter the command:  sudo screen -r X100
+To reattach to the detached session use the command:  sudo screen -r X100
 
 
 To stop X100 press:  Ctrl+C. 
 
 
-To start X100 again enter:  cd ~ && ./X100.sh
+To start X100 again:  cd ~ && ./X100.sh
 
 
 To change X100' config file use this command:  cd ~ && sudo mcedit x100-for-docker/put-your-ovpn-files-here/x100-config.txt

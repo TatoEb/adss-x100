@@ -25,4 +25,4 @@ To change X100' config file use this command:  cd ~ && sudo mcedit x100-for-dock
 
 P.S. If you have your own *.ovpn files and you want to replace them instead of free&slow ovpn, so then you can use this command to delete all folders in put-your-ovpn-files-here:   cd ~ && ./no-free.sh
 
-After that just create a folder with a name of your VPN service, put *.ovpn files with credentials.txt and possibly with other files (*.crt, *.key,*.pem) to this folder and run X100.
+After that just create a folder in x100-for-docker/put-your-ovpn-files-here/  with a name of your VPN service, put *.ovpn files with credentials.txt and possibly with other files (*.crt, *.key,*.pem) to this folder and run X100.

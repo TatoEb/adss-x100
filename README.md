@@ -23,4 +23,4 @@ To change X100' config file use this command:  cd ~ && sudo mcedit x100-for-dock
 
 (after every changes in x100-config.txt you must restart X100 in order to start with new parameters)
 
-If you have your own *opvn files and you want to replace them istead of free&slow so then you can use this command to delete all folders in put-your-ovpn-files-here:  cd ~ && ./no-free
+If you have your own *.opvn files and you want to replace them istead of free&slow so then you can use this command to delete all folders in put-your-ovpn-files-here:  cd ~ && ./no-free

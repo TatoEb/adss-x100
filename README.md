@@ -23,6 +23,6 @@ To change X100' config file use this command:  cd ~ && sudo mcedit x100-for-dock
 
 (after every changes in x100-config.txt you must restart X100 in order to start with new parameters)
 
-P.S. If you have your own *.opvn files and you want to replace them instead of free&slow ovpn, so then you can use this command to delete all folders in put-your-ovpn-files-here:  cd ~ && ./no-free
+P.S. If you have your own *.ovpn files and you want to replace them instead of free&slow ovpn, so then you can use this command to delete all folders in put-your-ovpn-files-here:  cd ~ && ./no-free
 
 After that just create a folder with a name of your VPN service, put *.ovpn files with credentials.txt and possibly with other files (*.crt, *.key,*.pem) to this folder and run X100.

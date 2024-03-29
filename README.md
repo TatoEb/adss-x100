@@ -27,4 +27,4 @@ P.S. If you have your own *.ovpn files and you want to replace them instead of f
 
 After that just create a folder in x100-for-docker/put-your-ovpn-files-here/  with a name of your VPN service, put your ovpn-files with credentials.txt and possibly with other files (*.crt, *.key,*.pem) to this folder and run X100. You can add as many folders as you have. 
 
-Good luck and bless Ukraine!
+Good luck and God bless Ukraine!

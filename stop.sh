@@ -1,0 +1,1 @@
+sudo bash ~/x100-for-docker/for-macOS-and-Linux-hosts/stop.bash

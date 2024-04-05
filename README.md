@@ -13,7 +13,8 @@ To detach from your screen session press the combination:  Ctrl+A D
 To reattach to the detached session use the command:  sudo screen -r X100
 
 
-To stop X100 press:  Ctrl+C. 
+To stop X100 press:  Ctrl+C (if it's opened on screen and running)
+or use the script:  cd ~ && ./stop.sh  (if it's detached and not opened on screen)
 
 
 To start X100 again:  cd ~ && ./X100.sh

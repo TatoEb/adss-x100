@@ -1,0 +1,1 @@
+cd ~ && sudo chmod 777 -R x100-for-docker/put-your-ovpn-files-here && sudo mcedit x100-for-docker/put-your-ovpn-files-here/x100-config.txt

@@ -1,4 +1,4 @@
-Install and launch X100 (docker version) easily with just 2 commands:
+# Install and launch X100 (docker version) easily with just 2 commands:
 
 
 1) cd ~ && curl https://raw.githubusercontent.com/TatoEb/adss-x100/main/InstallX100.sh -Lo run.sh && sudo chmod +x *.sh && ./run.sh

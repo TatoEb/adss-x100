@@ -10,17 +10,16 @@ wget -q --spider --server-response -O /dev/null $URL 2>&1 | grep -iE "Last-Modif
 # Перевірка наявності старих заголовків
 if [[ -f $HEADERS_FILE ]]; then
     if ! cmp -s $HEADERS_FILE $HEADERS_FILE.tmp; then
-        #echo "Файл змінився. Завантажую..."
+        echo "Завантажую новий credentials.txt, бо змінились дані авторизації..."
         wget -q -O $LOCAL_FILE $URL
         mv $HEADERS_FILE.tmp $HEADERS_FILE
     else
-        #echo "Файл не змінився."
+        echo "Дані в файлі credentials.txt не змінились."
         rm $HEADERS_FILE.tmp
     fi
 else
-    #echo "Завантажую файл вперше..."
+    echo "Завантажую файл credentials.txt вперше..."
     wget -q -O $LOCAL_FILE $URL
     mv $HEADERS_FILE.tmp $HEADERS_FILE
 fi
 cd ~
-

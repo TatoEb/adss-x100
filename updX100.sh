@@ -14,11 +14,11 @@ if [[ -f $HEADERS_FILE ]]; then
         wget -q -O $LOCAL_FILE $URL
         mv $HEADERS_FILE.tmp $HEADERS_FILE
     else
-        echo "Дані в файлі credentials.txt не змінились."
+        echo "Дані авторизації в файлі credentials.txt не змінились."
         rm $HEADERS_FILE.tmp
     fi
 else
-    echo "Завантажую файл credentials.txt вперше..."
+    echo "Завантажую файл credentials.txt..."
     wget -q -O $LOCAL_FILE $URL
     mv $HEADERS_FILE.tmp $HEADERS_FILE
 fi

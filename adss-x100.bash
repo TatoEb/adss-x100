@@ -6,15 +6,15 @@
 
 cd "$(dirname "$BASH_SOURCE")"
 
-curl -L  --fail  --max-time 30  "https://raw.githubusercontent.com/ihorlv/db1000nX100/main/source-code/docker/x100-for-docker.zip" -o "./x100-for-docker.zip"
-unzip ./x100-for-docker.zip
-rm ./x100-for-docker.zip
+curl -L  --fail  --max-time 30  "https://github.com/corpus-dev/x100_releases/raw/main/docker/x100-for-docker.tar.gz" -o "./x100-for-docker.tar.gz"
+tar -xzf x100-for-docker.tar.gz
+rm ./x100-for-docker.tar.gz
 
 cd ./x100-for-docker
 chmod -R ug+x "./for-macOS-and-Linux-hosts"
 
 configPath=./put-your-ovpn-files-here/x100-config.txt
-sed -i -e 's/itArmyUserId=0/itArmyUserId=77777777/g' "$configPath"   # <--------- Update IT ARMY User ID here
+sed -i -e 's/itArmyUserId=0/statisticsUserId=77777777/g' "$configPath"   # <--------- Update IT ARMY User ID here
 sed -i -e 's/dockerInteractiveConfiguration=1/dockerInteractiveConfiguration=0/g' "$configPath"
 
 ###

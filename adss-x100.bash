@@ -14,7 +14,7 @@ cd ./x100-for-docker
 chmod -R ug+x "./for-macOS-and-Linux-hosts"
 
 configPath=./put-your-ovpn-files-here/x100-config.txt
-sed -i -e 's/itArmyUserId=0/statisticsUserId=77777777/g' "$configPath"   # <--------- Update IT ARMY User ID here
+# sed -i -e 's/itArmyUserId=0/statisticsUserId=77777777/g' "$configPath"   # <--------- Update IT ARMY User ID here
 sed -i -e 's/dockerInteractiveConfiguration=1/dockerInteractiveConfiguration=0/g' "$configPath"
 
 ###
